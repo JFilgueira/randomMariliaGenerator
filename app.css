@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #9384D1 10%, #ECC9EE 70%);
+}
+
+.container {
+  width: 6s00px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container img {
+  height: 20%;
+  width: 30%;
+}
+.container h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.container p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: 0.3s;
+}
+.container .btn {
+  padding: 10px 5px 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 3px solid #FFDCB6;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container .btn:hover {
+  background-color: #C9A7EB;
+  color: #fff;
+}
+
+/*# sourceMappingURL=app.css.map */
